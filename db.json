@@ -6,7 +6,7 @@
             "password": "pass1",
             "name": "John",
             "lastname": "Doe",
-            "list": [ 1, 2, 3, 4, 5, 6 ] 
+            "list": [ 1, 2, 3, 4 ] 
         },
         {
             "id": 2,
@@ -14,7 +14,7 @@
             "password": "pass2",
             "name": "Jane",
             "lastname": "Doe",
-            "list": [ 7, 8, 9, 10, 11, 12 ]
+            "list": [ 5, 6, 7, 8 ]
         }
     ],
     "todo_list": [
@@ -73,34 +73,6 @@
             "subtitle": "subtitle 8",
             "description": "In congue finibus dolor vel auctor. In odio dolor, varius et orci eu, convallis ultrices neque. Curabitur id metus et risus malesuada ultrices. Vestibulum commodo augue sed lacinia facilisis. Donec.",
             "done": true
-        },
-        {
-            "id": 9,
-            "title": "item 9",
-            "subtitle": "subtitle 9",
-            "description": "Donec posuere egestas ipsum. Nam a convallis odio. Nulla et diam vehicula, ultricies velit et, pulvinar leo. Vivamus et condimentum tellus, non euismod lectus. Donec vel libero vestibulum, semper est.",
-            "done": false
-        },
-        {
-            "id": 10,
-            "title": "item 10",
-            "subtitle": "subtitle 10",
-            "description": "Integer a justo ligula. Aenean vulputate nibh est, eu eleifend sapien pellentesque ut. Fusce suscipit egestas arcu, nec porta turpis aliquam id. Donec a velit quis arcu ultricies vehicula. Proin.",
-            "done": true
-        },
-        {
-            "id": 11,
-            "title": "item 11",
-            "subtitle": "subtitle 11",
-            "description": "Donec erat risus, ultrices accumsan lacus a, viverra aliquam elit. Donec consectetur tincidunt quam, non faucibus elit volutpat maximus. Donec bibendum ut magna ut aliquet. Fusce ex velit, vehicula nec.",
-            "done": false
-        },
-        {
-            "id": 12,
-            "title": "item 12",
-            "subtitle": "subtitle 12",
-            "description": "Aenean euismod velit ligula, eget elementum justo bibendum quis. Vivamus blandit metus erat, tristique cursus felis mollis sed. Aliquam faucibus tempus aliquam. Vivamus hendrerit lacus lacus, et euismod magna tincidunt.",
-            "done": false
         }
     ]
 }
