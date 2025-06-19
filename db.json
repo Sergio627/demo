@@ -1,78 +1,171 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "nickname": "user1",
-            "password": "pass1",
-            "name": "John",
-            "lastname": "Doe",
-            "list": [ 1, 2, 3, 4 ] 
-        },
-        {
-            "id": 2,
-            "nickname": "user2",
-            "password": "pass2",
-            "name": "Jane",
-            "lastname": "Doe",
-            "list": [ 5, 6, 7, 8 ]
+  "users": [
+    {
+      "id": 1,
+      "nickname": "user1",
+      "password": "pass1",
+      "name": "John",
+      "lastname": "Doe",
+      "list": [1, 2, 3, 4]
+    },
+    {
+      "id": 2,
+      "nickname": "user2",
+      "password": "pass2",
+      "name": "Jane",
+      "lastname": "Doe",
+      "list": [5, 6, 7, 8]
+    }
+  ],
+  "todo_list": [
+    {
+      "id": 1,
+      "title": "item 1",
+      "subtitle": "subtitle 1",
+      "description": "Quisque elementum, libero at mattis malesuada, quam risus dapibus lectus, id maximus lacus arcu rhoncus ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam.",
+      "done": true
+    },
+    {
+      "id": 2,
+      "title": "item 2",
+      "subtitle": "subtitle 2",
+      "description": "Nullam rutrum euismod risus, vitae pulvinar lacus ultrices sed. Fusce bibendum neque quam, sit amet sodales leo vulputate vel. In faucibus purus orci, eget tempus justo aliquam ut. Aenean in.",
+      "done": false
+    },
+    {
+      "id": 3,
+      "title": "item 3",
+      "subtitle": "subtitle 3",
+      "description": "In dictum justo massa, vulputate fermentum ipsum varius at. Aliquam at nunc nec arcu eleifend suscipit. Pellentesque pharetra metus id ex posuere, et posuere lectus sollicitudin. Aliquam erat volutpat. Nulla.",
+      "done": true
+    },
+    {
+      "id": 4,
+      "title": "item 4",
+      "subtitle": "subtitle 4",
+      "description": "Praesent imperdiet malesuada euismod. Nam augue ipsum, ullamcorper a tristique vel, hendrerit vitae nunc. Vestibulum vel malesuada tortor, a bibendum libero. Fusce purus est, tristique a tellus bibendum, ultrices porttitor.",
+      "done": false
+    },
+    {
+      "id": 5,
+      "title": "item 5",
+      "subtitle": "subtitle 5",
+      "description": "Morbi at elit ut nisi aliquet aliquet id ac lacus. Nunc quis euismod nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum aliquam purus.",
+      "done": true
+    },
+    {
+      "id": 6,
+      "title": "item 6",
+      "subtitle": "subtitle 6",
+      "description": "Fusce elementum tellus ac lacus imperdiet tempus. Phasellus volutpat enim quis purus dictum molestie. Praesent imperdiet velit id nibh sodales, eget viverra mauris ultrices. Proin hendrerit aliquet ligula eget elementum.",
+      "done": false
+    },
+    {
+      "id": 7,
+      "title": "item 7",
+      "subtitle": "subtitle 7",
+      "description": "Fusce eu placerat dolor. Suspendisse vel dapibus nibh. Aenean id lacus ut neque tempus tristique non id dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non mi id.",
+      "done": false
+    },
+    {
+      "id": 8,
+      "title": "item 8",
+      "subtitle": "subtitle 8",
+      "description": "In congue finibus dolor vel auctor. In odio dolor, varius et orci eu, convallis ultrices neque. Curabitur id metus et risus malesuada ultrices. Vestibulum commodo augue sed lacinia facilisis. Donec.",
+      "done": true
+    }
+  ],
+  "api": {
+    "folder": {
+      "root": {
+        "data": [
+          { "name": "Music", "type": "folder" },
+          { "name": "Podcasts", "type": "folder" },
+          { "name": "Ringtones", "type": "folder" },
+          { "name": "Alarms", "type": "folder" },
+          { "name": "Notifications", "type": "folder" },
+          { "name": "Pictures", "type": "folder" },
+          { "name": "Movies", "type": "folder" },
+          { "name": "Download", "type": "folder" },
+          { "name": "DCIM", "type": "folder" },
+          { "name": "Documents", "type": "folder" },
+          { "name": "Audiobooks", "type": "folder" },
+          { "name": "Recordings", "type": "folder" },
+          { "name": "Tests", "type": "folder" },
+          { "name": "Video.mp4", "type": "file" },
+          { "name": "Archivo.PDF", "type": "file" },
+          { "name": "Other", "type": "folder" }
+        ]
+      },
+      "Music": {
+        "data": [
+          { "name": "Slipknot", "type": "folder" },
+          { "name": "Children of Bodom", "type": "folder" },
+          { "name": "Dummy Song.mp3", "type": "file" }
+        ]
+      }
+    },
+    "file": {
+      "storage": {
+        "video": {
+          "data": [
+            {
+              "dateAdded": 1749271271,
+              "dateModified": 1749271303,
+              "duration": 21925,
+              "id": 1,
+              "name": "20250606_224113.mp4",
+              "path": "DCIM/Camera/",
+              "size": 132783300
+            },
+            {
+              "dateAdded": 1749271271,
+              "dateModified": 1749271303,
+              "duration": 21925,
+              "id": 2,
+              "name": "20250606_224113.mp4",
+              "path": "DCIM/Camera/",
+              "size": 132783300
+            },
+            {
+              "dateAdded": 1749271271,
+              "dateModified": 1749271303,
+              "duration": 21925,
+              "id": 3,
+              "name": "20250606_224113.mp4",
+              "path": "DCIM/Camera/",
+              "size": 132783300
+            },
+            {
+              "dateAdded": 1749271271,
+              "dateModified": 1749271303,
+              "duration": 21925,
+              "id": 4,
+              "name": "20250606_224113.mp4",
+              "path": "DCIM/Camera/",
+              "size": 132783300
+            },
+            {
+              "dateAdded": 1749271271,
+              "dateModified": 1749271303,
+              "duration": 21925,
+              "id": 5,
+              "name": "20250606_224113.mp4",
+              "path": "DCIM/Camera/",
+              "size": 132783300
+            },
+            {
+              "dateAdded": 1749271271,
+              "dateModified": 1749271303,
+              "duration": 21925,
+              "id": 6,
+              "name": "20250606_224113.mp4",
+              "path": "DCIM/Camera/",
+              "size": 132783300
+            }
+          ]
         }
-    ],
-    "todo_list": [
-        {
-            "id": 1,
-            "title": "item 1",
-            "subtitle": "subtitle 1",
-            "description": "Quisque elementum, libero at mattis malesuada, quam risus dapibus lectus, id maximus lacus arcu rhoncus ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam.",
-            "done": true
-        },
-        {
-            "id": 2,
-            "title": "item 2",
-            "subtitle": "subtitle 2",
-            "description": "Nullam rutrum euismod risus, vitae pulvinar lacus ultrices sed. Fusce bibendum neque quam, sit amet sodales leo vulputate vel. In faucibus purus orci, eget tempus justo aliquam ut. Aenean in.",
-            "done": false
-        },
-        {
-            "id": 3,
-            "title": "item 3",
-            "subtitle": "subtitle 3",
-            "description": "In dictum justo massa, vulputate fermentum ipsum varius at. Aliquam at nunc nec arcu eleifend suscipit. Pellentesque pharetra metus id ex posuere, et posuere lectus sollicitudin. Aliquam erat volutpat. Nulla.",
-            "done": true
-        },
-        {
-            "id": 4,
-            "title": "item 4",
-            "subtitle": "subtitle 4",
-            "description": "Praesent imperdiet malesuada euismod. Nam augue ipsum, ullamcorper a tristique vel, hendrerit vitae nunc. Vestibulum vel malesuada tortor, a bibendum libero. Fusce purus est, tristique a tellus bibendum, ultrices porttitor.",
-            "done": false
-        },
-        {
-            "id": 5,
-            "title": "item 5",
-            "subtitle": "subtitle 5",
-            "description": "Morbi at elit ut nisi aliquet aliquet id ac lacus. Nunc quis euismod nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum aliquam purus.",
-            "done": true
-        },
-        {
-            "id": 6,
-            "title": "item 6",
-            "subtitle": "subtitle 6",
-            "description": "Fusce elementum tellus ac lacus imperdiet tempus. Phasellus volutpat enim quis purus dictum molestie. Praesent imperdiet velit id nibh sodales, eget viverra mauris ultrices. Proin hendrerit aliquet ligula eget elementum.",
-            "done": false
-        },
-        {
-            "id": 7,
-            "title": "item 7",
-            "subtitle": "subtitle 7",
-            "description": "Fusce eu placerat dolor. Suspendisse vel dapibus nibh. Aenean id lacus ut neque tempus tristique non id dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non mi id.",
-            "done": false
-        },
-        {
-            "id": 8,
-            "title": "item 8",
-            "subtitle": "subtitle 8",
-            "description": "In congue finibus dolor vel auctor. In odio dolor, varius et orci eu, convallis ultrices neque. Curabitur id metus et risus malesuada ultrices. Vestibulum commodo augue sed lacinia facilisis. Donec.",
-            "done": true
-        }
-    ]
+      }
+    }
+  }
 }
